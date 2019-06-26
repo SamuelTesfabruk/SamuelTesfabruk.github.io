@@ -1,15 +1,4 @@
-.row {
-    display: flex;
-  }
-  
-  .column {
-    flex: 20%;
-    padding: 5px;
-  }
-  .left {
-    float: left;
-    padding: 0 20px 20px 0;
-   }
+
    h2{
      text-align: center;
      background-color: aqua;
@@ -20,7 +9,7 @@
      font-style: italic;
    }
    h1{
-     color: blue;
+     color:black;
      font-family: Georgia, 'Times New Roman', Times, serif;
      font-size: 16px;
      font-style: oblique;
@@ -29,3 +18,19 @@
    body{
      background-color: #3b5998;
    }
+   a:link{
+     text-decoration: none;
+
+     color : #FF0000;
+   }
+   a:hover {
+    text-decoration: underline;
+    color: #FF00FF;
+    }
+    a:active{
+text-decoration: underline;
+    }
+    p::first-letter{
+      font-size: 2.5em;
+      color: #8A2BE2;
+    }
