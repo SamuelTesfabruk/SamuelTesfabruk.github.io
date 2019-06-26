@@ -34,3 +34,6 @@ text-decoration: underline;
       font-size: 2.5em;
       color: #8A2BE2;
     }
+    dt{
+     color: yellow;
+    }
