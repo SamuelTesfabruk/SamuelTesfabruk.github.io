@@ -19,7 +19,7 @@ font-weight: 22pt bold;
 text-decoration: underline;
 }
 body{
-    background-image: "silverware.jpg";
+    background-image: url("silverware.jpg");
     color: #404040;
     font-size: 11pt;
     font-family: Georgia,Garamond,serif;
