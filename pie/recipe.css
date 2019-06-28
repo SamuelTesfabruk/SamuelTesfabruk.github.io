@@ -5,7 +5,8 @@ h1{
     background-color: #F0F0F0;
 font-family: Lucida Sans Unicode,Arial,sans-serif;
 text-align: center;
-font-weight: 22pt bold;
+font-size: 22pt;
+font-weight:  bold;
 text-decoration: underline;
 }
 h2{
@@ -15,7 +16,8 @@ h2{
     background-color: #F0F0F0;
     font-family: Lucida Sans Unicode,Arial,sans-serif;
 text-align: left;
-font-weight: 22pt bold;
+font-size: 22pt;
+font-weight:  bold;
 text-decoration: underline;
 }
 body{
