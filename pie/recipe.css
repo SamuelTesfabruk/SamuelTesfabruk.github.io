@@ -38,3 +38,7 @@ strong{
     background-color: #FFFFA8;
 
 }
+#right_align{
+    text-align: justify;
+    text-align-last: right;
+}
