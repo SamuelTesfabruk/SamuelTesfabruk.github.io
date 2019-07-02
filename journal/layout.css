@@ -1,0 +1,75 @@
+#wholebody{
+    border: 10px solid;
+border-color: white;
+background-color: white;
+margin-left: 10px;
+margin-right: 10px;
+
+
+}
+
+#victoriaj{
+    
+
+background-color: #A8F0F0;
+text-align: right;
+
+}
+.headertxt{
+    font-size: 14pt;
+    
+  
+}
+
+.topdate{
+    border: 2px ;
+    border-bottom-color: blue;
+    border-bottom-style: dashed ;
+    
+   margin-top: 10px;
+   
+}
+.topbdy{
+    border: 4px solid;
+    border-color: #C2E9E9;
+    border-radius: 15px;
+    background-color: #e8fbfb;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+.bottombdy{
+    padding: 5px;
+    border: 4px solid;
+    border-color: #C2E9E9;
+    border-radius: 15px;
+    background-color: #e8fbfb;
+    margin-top: 10px;
+    overflow: auto;
+    
+}
+body{
+    padding: 5px;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-image: url(http://mumstudents.org/cs472/2019-07-RS/Labs/2/background.gif);
+}
+img{
+    float: right;
+    
+}
+
+#friends{
+    border: 4px solid;
+    padding: 5px;
+    margin-right: 5px;
+    border-color: rgb(3, 124, 124);
+    border-radius: 15px;
+    float: left;
+    
+}
+.rightside{
+    overflow: auto;
+    
+}

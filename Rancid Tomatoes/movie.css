@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0px;
+
+}
+body{
+    background-image: url(background.png);
+    font-size: 8pt;
+    font-family: verdana,tahoma,sans-serif;
+   height: 100%;
+
+}
+#banner{
+    background-image: url(bannerbg.png);
+    background-repeat: repeat-x;
+    text-align: center;
+    height: 50;
+
+}
+
+.sec_body{
+    border: gray 4px solid;
+    border-radius: 20px;
+margin: auto;
+width: 60%;
+width: 800px;
+overflow: auto;
+display: block;
+}
+#movie_title{
+    
+    font-size: 24pt ;
+    font-weight: bold;
+    text-shadow: 3px 3px #999999;
+font-family: tahoma,verdana,sans-serif;
+    text-align: center;
+}
+#sidebar{
+    background-color: #A2B964;
+    width: 250px;
+    float: right;    
+}
+#sidebar dl{
+    padding: 10px;
+}
+
+#rotten{
+    background-image: url(rbg.png);
+    background-repeat: repeat-x;
+    font-size: 48pt;
+    color: red ;
+    font-weight: bold;
+    background-size: auto 83px;
+    
+}
+#rating-percent {
+    font-size: 48px; 
+    font-weight: bold;
+    color: red;
+}
+#review_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+grid-gap: 1em;
+   /* clear: left;
+   column-count: 2; */
+ }
+
+.review{
+    vertical-align: right;
+}
+.review_box{
+    font-size: 8pt;
+    font-weight: bold;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 8px;
+    background-color: #e8dc9b;
+    
+}
+dd{
+  
+  margin-bottom: 10pt;
+  
+}
+ul{
+    list-style-type: none;
+}
+#bottom{
+    background-color: #A2B964;
+    padding: 5px;
+    text-align: center;
+    
+}
+.review_box >img{
+    margin-right: 5px;
+}
+.reviewer p{
+    padding: 5px;
+    
+}
+footer{
+    background-color: #a2b964;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    clear: right;
+}
+#validaters{
+    text-align: right;
+    float: right;
+    margin-top: 77%;
+    margin-right: 25%;
+}
+.reviewer:nth-child(1) img{
+    vertical-align: top;
+    float: left;
+}
+.reviewer:nth-child(1){
+    vertical-align: baseline;
+    padding: 5px;
+}
