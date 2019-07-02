@@ -53,11 +53,7 @@ font-family: tahoma,verdana,sans-serif;
     background-size: auto 83px;
     
 }
-#rating-percent {
-    font-size: 48px; 
-    font-weight: bold;
-    color: red;
-}
+
 #review_container{
     display: grid;
     grid-template-columns: 1fr 1fr;
